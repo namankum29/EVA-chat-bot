@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.full-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+    background: linear-gradient(to right, #6363a3, #b1b1ce);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.item {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #b3aeae;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #eee;
+}
+
+.item2 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fafafa;
+    border-top: 1px solid #d0d5da;
+    align-items: center;
+}
+
+.ask-somthing {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #d0d5da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    margin-right: 10px;
+}
+
+.ask-somthing:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.footer img {
+    width: 24px;
+    height: 24px;
+}
+
+.border-none {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.eva-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #63248d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.eva-btn:hover {
+    background-color: #3d1259;
+}
+    
